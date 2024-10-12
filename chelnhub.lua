@@ -91,7 +91,7 @@ local Main = Instance.new("Frame")
 Main.Name = "Main"
 Main.Parent = DoctorShiba
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
-Main.BackgroundColor3 = Color3.fromRGB(30, 28, 39)
+Main.BackgroundColor3 = Color3.fromRGB(75, 0, 130)
 Main.BackgroundTransparency = 0.100
 Main.BorderSizePixel = 0
 Main.ClipsDescendants = true
@@ -288,7 +288,7 @@ PageImage.Image = "rbxassetid://"..tostring(Image)
 local MainTab = Instance.new("Frame")
 MainTab.Name = "MainTab"
 MainTab.Parent = TabFolder
-MainTab.BackgroundColor3 = Color3.fromRGB(30, 28, 39)
+MainTab.BackgroundColor3 = Color3.fromRGB(75, 0, 130)
 MainTab.BorderSizePixel = 0
 MainTab.Position = UDim2.new(0.208333328, 0, 0, 0)
 MainTab.Size = UDim2.new(0, 475, 0, 350)
@@ -541,7 +541,7 @@ TextboxTitle.TextXAlignment = Enum.TextXAlignment.Left
 
 Textbox.Name = "Textbox"
 Textbox.Parent = Textboxx
-Textbox.BackgroundColor3 = Color3.fromRGB(30, 28, 39)
+Textbox.BackgroundColor3 = Color3.fromRGB(75, 0, 130)
 Textbox.Position = UDim2.new(0, 310, 0, 5)
 Textbox.Size = UDim2.new(0, 140, 0, 20)
 Textbox.Font = Enum.Font.Gotham
@@ -827,7 +827,7 @@ SliderButton.TextSize = 14.000
 
 Bar1.Name = "Bar1"
 Bar1.Parent = SliderButton
-Bar1.BackgroundColor3 = Color3.fromRGB(30, 28, 39)
+Bar1.BackgroundColor3 = Color3.fromRGB(75, 0, 130)
 Bar1.Size = UDim2.new(0, 435, 0, 5)
 
 Bar.Name = "Bar"
