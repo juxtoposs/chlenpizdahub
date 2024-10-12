@@ -150,7 +150,7 @@ pcall(function()
 wait(0.1)
 game:GetService('TweenService'):Create(
 UserText,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
-{TextColor3 = Color3.fromRGB(255, 0, 0)}
+{TextColor3 = Color3.fromRGB(255, 192, 203)}
 ):Play()
 wait(.5)
 game:GetService('TweenService'):Create(
@@ -1570,7 +1570,7 @@ ESP.Text = (v.Name ..' '.."[ "..round((game:GetService('Players').LocalPlayer.Ch
 if v.Team == game:GetService("Players").LocalPlayer.Team then
 ESP.TextColor3 = Color3.new(0, 255, 255)
 else
-ESP.TextColor3 = Color3.new(255, 0, 0)
+ESP.TextColor3 = Color3.new(255, 192, 203)
 end
 ESP.TextSize = 14
 ESP.TextStrokeTransparency = 0.500
@@ -1582,7 +1582,7 @@ HealthESP.BackgroundTransparency = 1
 HealthESP.Position = ESP.Position + UDim2.new(0, -25, 0, 15)
 HealthESP.Size = UDim2.new(0, 200, 0, 30)
 HealthESP.Font = Enum.Font.Gotham
-HealthESP.TextColor3 = Color3.fromRGB(255, 0, 0)
+HealthESP.TextColor3 = Color3.fromRGB(255, 192, 203)
 HealthESP.TextSize = 14
 HealthESP.TextStrokeTransparency = 0.500
 HealthESP.TextWrapped = true
@@ -1704,7 +1704,7 @@ name.Size = UDim2.new(1,0,1,0)
 name.TextYAlignment = 'Top'
 name.BackgroundTransparency = 1
 name.TextStrokeTransparency = 0.5
-name.TextColor3 = Color3.fromRGB(255, 0, 0)
+name.TextColor3 = Color3.fromRGB(255, 192, 203)
 name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' M')
 else
 v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' M')
@@ -1739,14 +1739,14 @@ name.Size = UDim2.new(1,0,1,0)
 name.TextYAlignment = 'Top'
 name.BackgroundTransparency = 1
 name.TextStrokeTransparency = 0.5
-name.TextColor3 = Color3.fromRGB(255, 0, 0)
+name.TextColor3 = Color3.fromRGB(255, 192, 203)
 if v.Name == "Flower1" then
 name.Text = ("Blue Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
 name.TextColor3 = Color3.fromRGB(0, 0, 255)
 end
 if v.Name == "Flower2" then
 name.Text = ("Red Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
-name.TextColor3 = Color3.fromRGB(255, 0, 0)
+name.TextColor3 = Color3.fromRGB(255, 192, 203)
 end
 else
 v['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
@@ -2082,7 +2082,7 @@ Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 Toggle.Size = UDim2.new(0, 50, 0, 50)
 Toggle.Font = Enum.Font.Code
 Toggle.Text = "T"
-Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
+Toggle.TextColor3 = Color3.fromRGB(255, 192, 203)
 Toggle.TextScaled = true
 Toggle.MouseButton1Down:connect(function()
 game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
