@@ -2089,7 +2089,7 @@ game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
 game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
 end)
 --------------------------------------------------------------------
-local RenUi = library:AddWindow("CHLEN PIZDA HUB",Enum.KeyCode.RightControl)
+local RenUi = library:AddWindow("SANYA ROSYA PIDOR HUB",Enum.KeyCode.RightControl)
 --------------------------------------------------------------------
 local Main = RenUi:AddTab("Menu Farm","6026568198")
 local Combat = RenUi:AddTab("Player","7251993295")
@@ -2100,7 +2100,7 @@ local DevilFruit = RenUi:AddTab("Devil Fruit","7044233235")
 local Shop = RenUi:AddTab("Shop","6031265976")
 local Misc = RenUi:AddTab("Miscellaneous","6034509993")
 --------------------------------------------------------------------
-Main:AddSeperator("CHLEN PIZDA HUB")
+Main:AddSeperator("SANYA ROSYA PIDOR HUB")
 Main:AddSeperator("Settings Farm")
 
 Time = Main:AddLabel("Server Time")
