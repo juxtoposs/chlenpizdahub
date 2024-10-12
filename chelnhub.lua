@@ -1190,7 +1190,7 @@ Mon = "Factory Staff [Lv. 800]"
 NameQuest = "Area2Quest"
 LevelQuest = 2
 NameMon = "Factory Staff"
-CFrameQuest = CFrame.new(632.698608, 73.1055908, 918.666321, -0.0319722369, 8.96074881e-10, -0.999488771, 1.36326533e-10, 1, 8.92172336e-10, 0.999488771, -1.07732087e-10, -0.0319722369)
+CFrameQuest = CFrame.new(-94, 100, -30)
 elseif MyLevel == 875 or MyLevel <= 899 then
 Mon = "Marine Lieutenant [Lv. 875]"
 LevelQuest = 1
